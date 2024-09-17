@@ -1,0 +1,26 @@
+2024-09-14T14:03:57.542-05:00  INFO 4860 --- [main] com.petShop.PetShopApiApplication        : Starting PetShopApiApplication using Java 21.0.4 with PID 4860 (C:\Users\william\Downloads\petShopAPI\build\classes\java\main started by william in C:\Users\william\Downloads\petShopAPI)
+2024-09-14T14:03:57.614-05:00  INFO 4860 --- [main] com.petShop.PetShopApiApplication        : The following 1 profile is active: "dev"
+2024-09-14T14:04:00.616-05:00  INFO 4860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14T14:04:01.023-05:00  INFO 4860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 369 ms. Found 6 JPA repository interfaces.
+2024-09-14T14:04:04.431-05:00  INFO 4860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8070 (http)
+2024-09-14T14:04:04.490-05:00  INFO 4860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-14T14:04:04.493-05:00  INFO 4860 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-09-14T14:04:05.584-05:00  INFO 4860 --- [main] o.a.c.c.C.[.[localhost].[/petShopApi]    : Initializing Spring embedded WebApplicationContext
+2024-09-14T14:04:05.591-05:00  INFO 4860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7701 ms
+2024-09-14T14:04:09.693-05:00  INFO 4860 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14T14:04:10.171-05:00  INFO 4860 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-14T14:04:10.359-05:00  INFO 4860 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-14T14:04:11.403-05:00  INFO 4860 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-14T14:04:11.499-05:00  INFO 4860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-14T14:04:12.973-05:00  INFO 4860 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a2df0d5
+2024-09-14T14:04:12.984-05:00  INFO 4860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-14T14:04:13.321-05:00  WARN 4860 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-14T14:04:13.325-05:00  WARN 4860 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-14T14:04:16.786-05:00  INFO 4860 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-14T14:04:16.796-05:00  INFO 4860 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14T14:04:19.229-05:00  WARN 4860 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-14T14:04:22.187-05:00  INFO 4860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8070 (http) with context path '/petShopApi'
+2024-09-14T14:04:22.240-05:00  INFO 4860 --- [main] com.petShop.PetShopApiApplication        : Started PetShopApiApplication in 26.301 seconds (process running for 44.467)
+2024-09-14T14:05:12.579-05:00  INFO 4860 --- [http-nio-8070-exec-2] o.a.c.c.C.[.[localhost].[/petShopApi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14T14:05:12.580-05:00  INFO 4860 --- [http-nio-8070-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-14T14:05:12.583-05:00  INFO 4860 --- [http-nio-8070-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
